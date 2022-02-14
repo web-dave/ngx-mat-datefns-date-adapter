@@ -29,16 +29,6 @@
             "karmaConfig": "projects/ngx-mat-datefns-date-adapter/karma.conf.js",
             "codeCoverageExclude": ["**/test.ts"]
           }
-        },
-        "lint": {
-          "builder": "@angular-devkit/build-angular:tslint",
-          "options": {
-            "tsConfig": [
-              "projects/ngx-mat-datefns-date-adapter/tsconfig.lib.json",
-              "projects/ngx-mat-datefns-date-adapter/tsconfig.spec.json"
-            ],
-            "exclude": ["**/node_modules/**"]
-          }
         }
       }
     }
